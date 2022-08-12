@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#home-page {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background: url("https://images.unsplash.com/photo-1612817288484-6f916006741a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    no-repeat center center fixed;
+}
+#product-page {
+  background: url(https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xODctbXludC0zMi5qcGc.jpg)
+    no-repeat repeat center fixed;
+  color: rgb(33, 72, 11);
+  background-size: cover;
+  text-shadow: 0.02em 0 white, 0 0.02em white, -0.02em 0 white, 0 -0.02em white;
+  font-weight: 700;
+}
+#product-para {
+  color: solid rgb(33, 72, 11);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 0.02em 0 white, 0 0.02em white, -0.02em 0 white, 0 -0.02em white;
+  font-weight: 700;
+}
+
+#contact-us-page {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd19-minty-01-leaf-job598.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=4410514d24476bb5f9325753b0b8c3b9")
+    no-repeat center center fixed;
+}
+#product-btn {
+  transition: 0.4s;
+  background: white;
+  font-weight: 700;
+  color: rgb(33, 72, 11);
+}
+#product-btn:hover {
+  background: white;
+  color: black;
+  font-weight: 700;
+}
+
+#complimentButton {
+  color: dark green;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(139, 46, 90);
+  background: rgb(218, 212, 212);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 1 px solid #462020;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#complimentButton:hover {
+  background: white;
+  color: black;
+}
+
+#contactForm {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+#review-box {
+  margin-left: 30%;
+}
+
+#liveToast {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+}
+
+#toast {
+  align-items: center;
+  padding-left: 50px;
+  width: 50%;
+  color: rgb(33, 72, 11);
+}
+
+.card.shadow-sm {
+  background-color: solid rgb(33, 72, 11);
+  box-sizing: border-box;
+  border-color: rgb(33, 72, 11);
+  border: 25px;
+  width: 66%;
+}
+.col {
+  background-color: transparent;
+}
+#conpy4 {
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+}
+
+/* .row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 {
+  display: flex;
+} */
+#retinol-page {
+  background-position: center;
+  background-size: cover;
+  background: url(https://i.pinimg.com/564x/cd/ea/73/cdea73cca65aa82f10535031f7a0ecc7.jpg)
+    repeat fixed center center;
+}
+
+#tret-page {
+  background: url(https://i.pinimg.com/564x/c7/a6/0d/c7a60d4c698f1aedc16803def33e92b3.jpg)
+    repeat;
+}
+#sali-page {
+  background: url(https://i.pinimg.com/564x/c2/79/af/c279afe76dcf633905082fc8cc6c44ec.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#sali-pic {
+  padding-left: 20%;
+  max-width: 130%;
+  height: 90%;
+}
+#info-ret {
+  padding: 6px;
+  background-color: transparent;
+}
+#info-tret {
+  padding: 6px;
+  background-color: transparent;
+}
+
+.col {
+  margin: 9px;
+  padding: 6px;
+}
+
+#homedesc {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  font-size: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(139, 46, 90);
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0.02em 0 white, 0 0.02em white, -0.02em 0 white, 0 -0.02em white;
+}
+#home2quiz {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(139, 46, 90);
+  background: rgb(218, 212, 212);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 1 px solid #462020;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#home2quiz:hover {
+  background: white;
+  color: black;
+}
+
+.half {
+  font-size: 18px;
+  height: 100%;
+  width: 48%;
+  float: left;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-right: 5%;
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+}
+
+.product-image {
+  margin: 0 30px 0 0;
+}
+
+.product-image img {
+  transform: translateX(-41%);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-text {
+  font-size: 33px;
+  background-color: transparent;
+}
+
+/*
+About us page css*/
+/* 
+#left-size {
+  
+} */
+
+.card-body-p-1-9-p-xl-5 {
+  height: 10px;
+}
+
+.icon-box.medium {
+  font-size: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.social-icon-style2 li a {
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+
+.social-icon-style2 {
+  margin-bottom: 0;
+  display: inline-block;
+  padding-left: 10px;
+  list-style: none;
+}
+.social-icon-style2 li {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 5px;
+}
+#random-about {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.text-primary {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: black;
+}
+#me {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 0px;
+  color: #0d6efd;
+}
+.col-lg-8 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* 
+#intro {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  overflow: scroll;
+  border: solid black;
+} */
+
+#wrapper {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: scroll;
+  border: solid rgb(24, 24, 248);
+  border-width: 5px;
+  fill: white;
+  width: 1200px;
+  max-height: fit-content;
+  justify-content: center;
+}
+
+#Intro {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  box-shadow: #ffffff;
+}
+
+#header2 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+/* reviewsite */
+
+/* quiz.html */
+
+#body-quiz {
+  background-image: url("https://img.freepik.com/free-photo/tropical-monstera-leaves-with-palm-leaves-shadow_53876-123070.jpg?w=1800&t=st=1660213394~exp=1660213994~hmac=ca8312827ddb71ee4174985556e6ac221a4d38e65742f41c1d74b0c26f2783cb");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+#quiz-dis {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  font-size: 55px;
+  font-weight: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(33, 72, 11);
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0.03em 0 beige, 0 0.03em beige, -0.03em 0 beige, 0 -0.03em beige;
+}
+#description-quiz-btn {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(33, 72, 11);
+  background: rgb(218, 212, 212);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  border: 3px solid rgb(33, 72, 11);
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#secondp {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  font-weight: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(33, 72, 11);
+  padding: 0 70px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0.02em 0 beige, 0 0.02em beige, -0.02em 0 beige, 0 -0.02em beige;
+}
+#description-quiz-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* review */

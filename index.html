@@ -1,0 +1,97 @@
+<!DOCTYPE hmtl>
+<hmtl lang="en">
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport"
+     content="width=device-width,inital-scale=1.0">
+     <title>landing page</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+     </head>
+     <body id="home-page"> 
+
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar" >
+            <a class="navbar-brand"href="index.html">Skincare4Us
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutUs.html">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="product.html">Products <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="quiz.html">Quiz<span class="sr-only"></span></a>
+                </li>
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="Review.html">Review <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="shop.html">Shop <span class="sr-only"></span></a>
+                </li> -->
+                <li class="nav-item active">
+                  <a class="nav-link" href="contactUs.html">Contact<span class="sr-only"></span></a>
+                </li>
+                <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Product Menu
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                    <a class="dropdown-item" href="retinol.html">Retinol</a> </li>
+                   <li> <a class="dropdown-item" href="tretinoin.html">Tretinoin</a> </li>
+                    <li> <a class="dropdown-item" href="salicylic.html">Salicylic</a> 
+                   <li>  <a class="dropdown-item" href="niacinamide.html">Niacinamide</a> </li>
+                   <li> <a class="dropdown-item" href="hyaluronic.html">Hyaluronic</a> </li>
+                    <li> <a class="dropdown-item" href="azelaic.html">Azelaic</a> </li>
+                   <li> <a class="dropdown-item" href="vitc.html">Vitamin C</a> </li>
+                    <li> <a class="dropdown-item" href="bha.html">BHA</a> </li>
+                    <li> <a class="dropdown-item" href="aha.html">AHA</a> </li>
+                  </ul>
+                </div>
+              </ul>
+            </div>
+          </nav>
+     
+        
+</header>
+
+<div class="description" id="homedesc"> 
+    <p>Build your perfect skincare routine and unlock the best version of yourself </p>
+    <button id="home2quiz" onclick="location.href='quiz.html'"">
+    Start your journey to healthy & glowing skin!
+    </button>
+<br>
+<p>
+  You deserve a compliment!
+</p>
+<button  id="complimentButton">Get a compliment
+</button>
+</div>
+
+<div class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" id="liveToast">
+  <div class="d-flex">
+    <div class="toast-body" id="compliment-text">
+      <!-- Hello, world! This is a toast message. -->
+    </div>
+    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close" id="toast"></button>
+  </div>
+</div>
+
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
